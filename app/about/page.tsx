@@ -61,7 +61,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      {/* <ManagementTeam /> */}
+      <ManagementTeam />
     </section>
   );
 };

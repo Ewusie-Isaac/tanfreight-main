@@ -25,7 +25,7 @@ const Services = () => {
             <h2 className="bold-40 lg:bold-64">Our Services</h2>
             <p className="regular-14 lg:regular-16 text-gray-50 lg:w-3/5">
               Our services at TAN Freight and Logistics encompass secure and
-              compliant handling of dangerous goods, efficient warehousing and
+              complete handling of dangerous goods, efficient warehousing and
               distribution solutions, and customer-centric operations that
               prioritize safety and satisfaction.
             </p>

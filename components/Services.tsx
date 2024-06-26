@@ -158,7 +158,7 @@ const TanServices = () => {
                   across various terrains and distances. We leverage our
                   extensive network of carriers and logistics partners to
                   provide cost-effective and tailored solutions for land
-                  transportation needs.
+                  transportation needs across borders.
                 </p>
               </div>
               <div className=" my-3">
@@ -303,9 +303,10 @@ const TanServices = () => {
                   CUSTOM CLEARANCE.
                 </h2>
                 <p>
-                  We are specialized in managing documentations, and customs
-                  inspections efficiently, leveraging our expertise to
-                  minimizing delays and ensuring timely delivery of goods.
+                  We specialize in efficiently managing documentation and
+                  customs inspections, leveraging our expertise to clear
+                  consignments on time at the ports of discharge
+                  to avoid demurrage.
                 </p>
               </div>
               <div className="my-4">
@@ -362,10 +363,10 @@ const TanServices = () => {
             <div className="flex flex-col justify-evenly">
               <div>
                 <h2 className="pb-3 text-3xl font-bold">
-                  WAREHOUSE AND DISTRIBUTION.
+                  WAREHOUSING AND DISTRIBUTION.
                 </h2>
                 <p>
-                  Our warehouse and distribution services are designed for
+                  Our warehousingin and distribution services are designed for
                   seamless supply chain management, ensuring secure storage and
                   efficient delivery of goods. we optimize inventory control and
                   streamline distribution channels.

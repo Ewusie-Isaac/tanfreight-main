@@ -225,7 +225,7 @@ export const footerLinks = [
     links: [
       { name: 'About us', link: '/about' },
       { name: 'Contact us', link: '/contact' },
-      { name: 'How it works', link: '#process' },
+      { name: 'How it works', link: '/#process' },
       // { name: 'Privacy policy', link: '/' },
       // { name: 'Payment policy', link: '/' },
     ],
@@ -253,7 +253,8 @@ export const socialMedia = [
   {
     src: '/x.png',
     alt: 'x logo',
-    href: 'https://x.com/tanfreightghana?s=21',
+    // href: 'https://x.com/tanfreightghana?s=21',
+    href: '',
   },
   {
     src: '/fb.jpg',

@@ -49,7 +49,7 @@ const Process = () => {
             <p
               className="regular-16 mt-5 text-gray-30 first-letter:float-left first-letter:mr-3
   first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
-  first-line:uppercase first-line:tracking-widest max-md:mt-5 xl:max-w-[520px]"
+   first-line:tracking-widest max-md:mt-5 xl:max-w-[520px]"
             >
               At TAN Freight and Logistics company ltd, we kickstart our
               operations by carefully listening to our clients' needs, followed

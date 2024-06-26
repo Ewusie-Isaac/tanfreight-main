@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     default: 'Home',
   },
   description:
-    'Your reliable and genuine partner for all your freight and logistics needs, ensuring smooth and efficient transportation solutions tailored to your requirements. Trust us for dependable and authentic services that prioritize your business success Air Freight | Sea Freight | Land Freight |Ship to Ghana | Shop online | buy from china | Customs Clearance | Warehousing | Project cargo | Consolidation | Ship goods | ship conatainer | From china to Ghana | from USA to Ghana | shipping',
+    'Reimaginning the face of freight and logistics services. Your reliable and genuine partner for all your freight and logistics needs, ensuring smooth and efficient transportation solutions tailored to your requirements. Trust us for dependable and authentic services that prioritize your business success Air Freight | Sea Freight | Land Freight |Ship to Ghana | Shop online | buy from china | Customs Clearance | Warehousing | Project cargo | Consolidation | Ship goods | ship conatainer | From china to Ghana | from USA to Ghana | shipping',
 };
 export default function RootLayout({
   children,

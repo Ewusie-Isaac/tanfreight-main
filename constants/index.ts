@@ -22,7 +22,7 @@ export const MANTRA = [
     title: '24 -72 HOURS MANTRA',
     src: '/main/time.jpg',
     description:
-      'At TAN Freight and Logistics, we live by the mantra of efficiency and timeliness. With a commitment to clearing air shipments within 24 hours, Full Container Load (FCL) sea shipments within 48 hours, and Less Container Load (LCL) sea shipments within 72 hours, we ensure your freight reaches its destination promptly and affordably. Our experienced team, extensive network, and advanced equipment guarantee that your cargo is shipped on time',
+      'At TAN Freight and Logistics, we live by the mantra of efficiency and timeliness. With a commitment to clearing air shipments within 24 hours, Full Container Load (FCL) sea shipments within 48 hours, and Less Container Load (LCL) sea shipments within 72 hours, we ensure your freight reaches its destination promptly and affordably. Our experienced team, extensive network, and advanced equipment guarantee that your cargo is cleared on time',
   },
   {
     title: 'COST EFFECTIVESNESS',

@@ -183,7 +183,7 @@ export const reviews = [
   {
     // imgURL: customer1,
     imgURL: '/person-1.jpg',
-    customerName: 'Augustine Blowne',
+    customerName: 'Adu Kwasi Sarfo',
     rating: 5.0,
     feedback:
       'Team of efficient, reliable and I highly recommend their services!',
@@ -191,7 +191,7 @@ export const reviews = [
   {
     // imgURL: customer2,
     imgURL: '/person-2.jpg',
-    customerName: 'Stella Okojie',
+    customerName: 'Stella Debrah',
     rating: 4.5,
     feedback:
       "I've had multiple successful shipments with them, and I'm always satisfied with their service.",
@@ -223,7 +223,8 @@ export const footerLinks = [
   {
     title: 'Help',
     links: [
-      { name: 'About us', link: '/about' },
+      { name: 'About us', link: '#' },
+      // { name: 'About us', link: '/about' },
       { name: 'Contact us', link: '/contact' },
       { name: 'How it works', link: '/#process' },
       // { name: 'Privacy policy', link: '/' },

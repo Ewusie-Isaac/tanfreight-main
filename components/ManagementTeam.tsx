@@ -235,10 +235,10 @@ const ManagementTeam = () => {
           <div className="rounded-md bg-purple-2 text-gray-200">
             <Link href="">
               <Image
-                src="/managements/EB-2.jpg"
+                src="/managements/EB-2.JPG"
                 width={400}
                 height={400}
-                alt="tan stuff"
+                alt="Esthere Bampoh tan stuff"
               />
             </Link>
             <div className="flex items-start justify-between p-3">

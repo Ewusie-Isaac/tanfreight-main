@@ -126,7 +126,7 @@ const ManagementTeam = () => {
       </div> */}
       <div className="p-10">
         <h2 className="partners mb-8 px-10 text-center text-xl font-bold uppercase">
-          Other managements team
+          TAN management team
         </h2>
 
         <ul className="staffs">
@@ -166,11 +166,16 @@ const ManagementTeam = () => {
                   <span className="text-4xl">&#9993;</span>
                 </Link>
                 <Link href="https://www.linkedin.com/in/raphael-teffutor-368104136?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACEeiQABocZ9K9ELmQ7qh8Cx370IrJ0Vg5U&lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3BZsrooM54R%2B2Jc6bejOV0Mw%3D%3D">
-                  <Image src="/link.jpg" alt="" width={24} height={24} />
+                  <Image
+                    src="/managements/linkedin.png"
+                    alt=""
+                    width={30}
+                    height={30}
+                  />
                 </Link>
-                <Link href="">
+                {/* <Link href="">
                   <Image src="/ig.png" alt="" width={24} height={24} />
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -194,11 +199,16 @@ const ManagementTeam = () => {
                   <span className="text-4xl">&#9993;</span>
                 </Link>
                 <Link href="https://www.linkedin.com/in/raphael-nyarkoh-0704522b5?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAEu04tQB7kzKpw3EJ-4esSfYpij1sWXfu0c&lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3BZsrooM54R%2B2Jc6bejOV0Mw%3D%3D">
-                  <Image src="/link.jpg" alt="" width={24} height={24} />
+                  <Image
+                    src="/managements/linkedin.png"
+                    alt=""
+                    width={30}
+                    height={30}
+                  />
                 </Link>
-                <Link href="" className="email">
+                {/* <Link href="" className="email">
                   <Image src="/ig.png" alt="" width={24} height={24} />
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -224,11 +234,16 @@ const ManagementTeam = () => {
                   <span className="text-4xl">&#9993;</span>
                 </Link>
                 <Link href="" className="email">
-                  <Image src="/link.jpg" alt="" width={24} height={24} />
+                  <Image
+                    src="/managements/linkedin.png"
+                    alt=""
+                    width={30}
+                    height={30}
+                  />
                 </Link>
-                <Link href="" className="email">
+                {/* <Link href="" className="email">
                   <Image src="/ig.png" alt="" width={24} height={24} />
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -254,11 +269,16 @@ const ManagementTeam = () => {
                   <span className="text-4xl">&#9993;</span>
                 </Link>
                 <Link href="https://www.linkedin.com/in/esther-nanaama-bampoh-53a2331a1?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC8ysj4BR37_DvcCFnwICXifPV7Gci4Q-MM&lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3BZsrooM54R%2B2Jc6bejOV0Mw%3D%3D">
-                  <Image src="/link.jpg" alt="" width={38} height={38} />
+                  <Image
+                    src="/managements/linkedin.png"
+                    alt=""
+                    width={38}
+                    height={38}
+                  />
                 </Link>
-                <Link href="">
-                  <Image src="/ig.png" alt="" width={38} height={38} />
-                </Link>
+                {/* <Link href="">
+                  <Image src="/ig.png" alt="" width={30} height={30} />
+                </Link> */}
               </div>
             </div>
           </div>
@@ -281,11 +301,16 @@ const ManagementTeam = () => {
                   <span className="text-4xl">&#9993;</span>
                 </Link>
                 <Link href="https://www.linkedin.com/in/isaac-networks-2a5a9a183?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACtoxh0Bit5tAkmnrUQfyXbFBWpyd5snEMY&lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3BZsrooM54R%2B2Jc6bejOV0Mw%3D%3D">
-                  <Image src="/link.jpg" alt="" width={24} height={24} />
+                  <Image
+                    src="/managements/linkedin.png"
+                    alt=""
+                    width={30}
+                    height={30}
+                  />
                 </Link>
-                <Link href="">
+                {/* <Link href="">
                   <Image src="/ig.png" alt="" width={24} height={24} />
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

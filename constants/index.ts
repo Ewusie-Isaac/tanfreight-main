@@ -2,7 +2,7 @@
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
   { href: '/tanservices', key: 'services', label: 'Services' },
-  { href: '/about', key: 'about', label: 'About Us ' },
+  // { href: '/about', key: 'about', label: 'About Us ' },
   { href: '/whyTan', key: 'Why TAN', label: 'Why Choose TAN ' },
   { href: '/sdg', key: 'TAN Impacts', label: 'TAN Impacts' },
   { href: '/contact', key: 'contact_us', label: 'Contact Us' },
@@ -129,7 +129,7 @@ export const WHYTAN = [
     // src: '/main/global.reach.jpg',
 
     description:
-      'Our global reach extends to 195 countries through strategic alliances, enabling us to efficiently source, pick up/deliver, warehouse/distribute, import/export and clear consignments from any corner of the world.',
+      'Our global reach extends to 195 countries through strategic alliances, enabling us to efficiently source, pick up, clearance and deliver, warehouse and distribute, import and export and clear consignments from any corner of the world.',
   },
   {
     title: 'PRE FINANCE SERVICE',

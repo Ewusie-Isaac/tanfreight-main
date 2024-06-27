@@ -17,8 +17,8 @@ const FeatureItem = ({ title, icon, description }: FeatureItem) => {
           width={500}
         />
       </div>
-      <div className="w-full  p-5">
-        <h2 className="bold-20 lg:bold-32 mt-5 pb-3 capitalize text-gray-600">
+      <div className="w-full p-5">
+        <h2 className="bold-20 lg:bold-32 mt-1 pb-3 capitalize text-gray-600">
           {title}
         </h2>
         <p className="regular-14 lg:regular-16 text-gray-700 ">{description}</p>

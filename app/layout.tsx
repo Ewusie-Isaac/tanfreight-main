@@ -15,7 +15,7 @@ const kanit = Kanit({ subsets: ['latin'], weight: '400' });
 // };
 export const metadata: Metadata = {
   title: {
-    template: '%s | TAN Freight',
+    template: '%s | TAN Freight and Logistics',
     default: 'Home | TAN Freight and Logistics',
   },
   description:

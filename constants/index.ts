@@ -2,7 +2,7 @@
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
   { href: '/tanservices', key: 'services', label: 'Services' },
-  // { href: '/about', key: 'about', label: 'About Us ' },
+  { href: '/about', key: 'about', label: 'About Us ' },
   { href: '/whyTan', key: 'Why TAN', label: 'Why Choose TAN ' },
   { href: '/sdg', key: 'TAN Impacts', label: 'TAN Impacts' },
   { href: '/contact', key: 'contact_us', label: 'Contact Us' },
@@ -153,24 +153,24 @@ export const SOCIALS = {
 //   { value: '250k+', label: 'Customers' },
 // ];
 
-export const services = [
-  {
-    // imgURL: truckFast,
-    label: 'Free shipping',
-    subtext: 'Enjoy seamless shopping with our complimentary shipping service.',
-  },
-  {
-    // imgURL: shieldTick,
-    label: 'Secure Payment',
-    subtext:
-      'Experience worry-free transactions with our secure payment options.',
-  },
-  {
-    // imgURL: support,
-    label: 'Love to help you',
-    subtext: 'Our dedicated team is here to assist you every step of the way.',
-  },
-];
+// export const services = [
+//   {
+//     // imgURL: truckFast,
+//     label: 'Free shipping',
+//     subtext: 'Enjoy seamless shopping with our complimentary shipping service.',
+//   },
+//   {
+//     // imgURL: shieldTick,
+//     label: 'Secure Payment',
+//     subtext:
+//       'Experience worry-free transactions with our secure payment options.',
+//   },
+//   {
+//     // imgURL: support,
+//     label: 'Love to help you',
+//     subtext: 'Our dedicated team is here to assist you every step of the way.',
+//   },
+// ];
 
 export const reviews = [
   // {
@@ -223,8 +223,8 @@ export const footerLinks = [
   {
     title: 'Help',
     links: [
-      { name: 'About us', link: '#' },
-      // { name: 'About us', link: '/about' },
+      // { name: 'About us', link: '#' },
+      { name: 'About us', link: '/about' },
       { name: 'Contact us', link: '/contact' },
       { name: 'How it works', link: '/#process' },
       // { name: 'Privacy policy', link: '/' },

@@ -56,7 +56,7 @@ const AboutUs = () => {
               height={500}
               alt="tan freight"
               className="w-full"
-              src="/main/about.jpg"
+              src="/managements/about-1.jpeg"
             />
           </div>
         </div>

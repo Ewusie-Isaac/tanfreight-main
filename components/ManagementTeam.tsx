@@ -131,14 +131,16 @@ const ManagementTeam = () => {
 
         <ul className="staffs">
           <div className="flex flex-col items-center justify-center bg-purple-2 p-5 text-gray-200">
-            <h2 className="mb-3 text-xl font-semibold capitalize lg:text-2xl">
-              Meet our Management team
-            </h2>
-            <p className="mb-5">
-              These people work to make our services, the best!
-            </p>
+            <div>
+              <h2 className="mb-3 text-xl font-semibold capitalize lg:text-2xl">
+                Meet our Management team
+              </h2>
+              <p className="mb-5">
+                These people work to make our services, the best!
+              </p>
+            </div>
             <Link
-              className="rounded-lg bg-gray-200 p-3 text-purple-1 transition-all hover:bg-gray-300 hover:p-4
+              className="rounded-lg bg-gray-200 p-3 text-purple-1 transition-all hover:bg-gray-300
                hover:text-lg "
               href="mailto:info@tanfreight.com"
             >
@@ -215,6 +217,35 @@ const ManagementTeam = () => {
           <div className="rounded-md bg-purple-2 text-gray-200">
             <Link href="">
               <Image
+                src="/managements/IS-2.jpg"
+                width={400}
+                height={400}
+                alt="tan stuff"
+              />
+            </Link>
+            <div className="flex items-start justify-between p-3">
+              <div>
+                <h3 className="text-xl font-semibold">Isaac Obiri Sakyiamah</h3>
+                <p>Chief Finance Officer</p>
+              </div>
+              <div className="flex items-center justify-center gap-3 align-baseline">
+                <Link href="mailto:isaac.sakyiamah@tanfreight.com">
+                  <span className="text-4xl">&#9993;</span>
+                </Link>
+                <Link href="https://www.linkedin.com/in/isaac-networks-2a5a9a183?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACtoxh0Bit5tAkmnrUQfyXbFBWpyd5snEMY&lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3BZsrooM54R%2B2Jc6bejOV0Mw%3D%3D">
+                  <Image
+                    src="/managements/linkedin.png"
+                    alt=""
+                    width={30}
+                    height={30}
+                  />
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="rounded-md bg-purple-2 text-gray-200">
+            <Link href="">
+              <Image
                 src="/managements/HR-2.jpg"
                 width={400}
                 height={400}
@@ -282,7 +313,7 @@ const ManagementTeam = () => {
               </div>
             </div>
           </div>
-          <div className="rounded-md bg-purple-2 text-gray-200">
+          {/* <div className="rounded-md bg-purple-2 text-gray-200">
             <Link href="">
               <Image
                 src="/managements/IS-2.jpg"
@@ -308,12 +339,9 @@ const ManagementTeam = () => {
                     height={30}
                   />
                 </Link>
-                {/* <Link href="">
-                  <Image src="/ig.png" alt="" width={24} height={24} />
-                </Link> */}
               </div>
             </div>
-          </div>
+          </div> */}
         </ul>
       </div>
     </section>

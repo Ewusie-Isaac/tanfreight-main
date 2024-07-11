@@ -7,19 +7,19 @@ const HeroSection = () => {
       {/* <div className="hero-map hidden lg:block" /> */}
 
       <div
-        className="ralative z-50 mt-8  flex w-full flex-1 flex-col bg-gradient-to-r from-white via-white to-white p-2 sm:bg-slate-500
-        md:bg-purple-2 lg:mt-3 xl:mt-8"
+        className="ralative z-50 mt-8 flex w-full flex-1 flex-col bg-gradient-to-r from-white via-white to-white p-2
+        sm:bg-slate-500 md:bg-purple-2 lg:mt-3 xl:mt-8"
       >
-        <h1 className="animate-1 bold-32 xl:bold-40 lg:bold-32 text-purple-2">
+        <h1 className="bold-32 xl:bold-40 lg:bold-32 text-purple-2">
           Your preferred and Authentic Partner in Freight and Logistics
         </h1>
-        <p className="animate-2 regular-16 mt-6 text-gray-30">
+        <p className="regular-16 mt-6 text-gray-30">
           Your reliable and genuine partner for all your freight and logistics
           needs, ensuring smooth and efficient transportation solutions tailored
           to your requirements. Trust us for dependable and authentic services
           that prioritize your business's success.
         </p>
-        <div className="animate-2 mt-8 flex  w-full flex-col gap-3 sm:flex-row">
+        <div className="mt-8 flex  w-full flex-col gap-3 sm:flex-row">
           <Link
             className="flex flex-col items-center justify-center bg-purple-2 px-5 py-2 font-bold text-white"
             href="/tanservices"
@@ -64,7 +64,7 @@ const HeroSection = () => {
           </Link>
         </div>
       </div>
-      <div>
+      <div className="flex items-center justify-center gap-2">
         <Image
           src="/main/mains.jpg"
           width={900}

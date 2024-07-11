@@ -1,5 +1,5 @@
 import CustomerReviews from '@/components/CustomerReviews';
-import HeroSection from '@/components/HeroSection';
+import HeroSection from '@/components/HeroSection-v0';
 import HomeSection from '@/components/HomeSection';
 import Partners from '@/components/Partners';
 import Process from '@/components/Process';

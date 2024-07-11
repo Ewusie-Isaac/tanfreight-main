@@ -5,7 +5,7 @@ const Action = () => {
     <>
       {/* <Link href="mailto:info@tanfreight.com">info@tanfreight.com</Link> */}
       <a
-        className="btn_purple-color flex items-center justify-end rounded-lg border text-white"
+        className="flex items-center  justify-end rounded-lg border bg-gray-10 p-2 "
         href="tel:+233 (0) 50 333 7178"
       >
         +233 (0) 50 333 7178

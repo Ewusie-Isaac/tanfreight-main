@@ -161,18 +161,18 @@ const ManagementTeam = () => {
                 <p>Chief Executive Officer</p>
               </div>
               <div className="flex items-center justify-center gap-3 align-baseline">
-                <Link
+                {/* <Link
                   href="mailto:raphael.teffutor@tanfreight.com"
                   className="email"
                 >
                   <span className="text-4xl">&#9993;</span>
-                </Link>
+                </Link> */}
                 <Link href="https://www.linkedin.com/in/raphael-teffutor-368104136?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACEeiQABocZ9K9ELmQ7qh8Cx370IrJ0Vg5U&lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3BZsrooM54R%2B2Jc6bejOV0Mw%3D%3D">
                   <Image
                     src="/managements/linkedin.png"
                     alt=""
-                    width={30}
-                    height={30}
+                    width={40}
+                    height={40}
                   />
                 </Link>
                 {/* <Link href="">
@@ -194,18 +194,18 @@ const ManagementTeam = () => {
                 <p>Chief Operating Officer</p>
               </div>
               <div className="flex items-center justify-center gap-3 align-baseline">
-                <Link
+                {/* <Link
                   href="mailto:raphael.nyarkoh@tanfreight.com"
                   className="email"
                 >
                   <span className="text-4xl">&#9993;</span>
-                </Link>
+                </Link> */}
                 <Link href="https://www.linkedin.com/in/raphael-nyarkoh-0704522b5?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAEu04tQB7kzKpw3EJ-4esSfYpij1sWXfu0c&lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3BZsrooM54R%2B2Jc6bejOV0Mw%3D%3D">
                   <Image
                     src="/managements/linkedin.png"
                     alt=""
-                    width={30}
-                    height={30}
+                    width={40}
+                    height={40}
                   />
                 </Link>
                 {/* <Link href="" className="email">
@@ -229,15 +229,15 @@ const ManagementTeam = () => {
                 <p>Chief Finance Officer</p>
               </div>
               <div className="flex items-center justify-center gap-3 align-baseline">
-                <Link href="mailto:isaac.sakyiamah@tanfreight.com">
+                {/* <Link href="mailto:isaac.sakyiamah@tanfreight.com">
                   <span className="text-4xl">&#9993;</span>
-                </Link>
+                </Link> */}
                 <Link href="https://www.linkedin.com/in/isaac-networks-2a5a9a183?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACtoxh0Bit5tAkmnrUQfyXbFBWpyd5snEMY&lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3BZsrooM54R%2B2Jc6bejOV0Mw%3D%3D">
                   <Image
                     src="/managements/linkedin.png"
                     alt=""
-                    width={30}
-                    height={30}
+                    width={40}
+                    height={40}
                   />
                 </Link>
               </div>
@@ -258,18 +258,18 @@ const ManagementTeam = () => {
                 <p>Director of Human Resources</p>
               </div>
               <div className="flex items-center justify-center gap-3 align-baseline">
-                <Link
+                {/* <Link
                   href="mailto:julienne.opokumensah@tanfreight.com"
                   className="email"
                 >
                   <span className="text-4xl">&#9993;</span>
-                </Link>
+                </Link> */}
                 <Link href="" className="email">
                   <Image
                     src="/managements/linkedin.png"
                     alt=""
-                    width={30}
-                    height={30}
+                    width={40}
+                    height={40}
                   />
                 </Link>
                 {/* <Link href="" className="email">
@@ -293,12 +293,12 @@ const ManagementTeam = () => {
                 <p>Director of Marketing & Bus. Development</p>
               </div>
               <div className="flex items-center justify-center gap-3 align-baseline">
-                <Link
+                {/* <Link
                   href="mailto:esther.bampoh@tanfreight.com"
                   className="email"
                 >
                   <span className="text-4xl">&#9993;</span>
-                </Link>
+                </Link> */}
                 <Link href="https://www.linkedin.com/in/esther-nanaama-bampoh-53a2331a1?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC8ysj4BR37_DvcCFnwICXifPV7Gci4Q-MM&lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3BZsrooM54R%2B2Jc6bejOV0Mw%3D%3D">
                   <Image
                     src="/managements/linkedin.png"

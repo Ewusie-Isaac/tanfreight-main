@@ -4,8 +4,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
 import Action from './Action';
-import OtherSub1 from './OtherSub1';
-import OtherSub from './OtherSub';
 // import { useSelectedLayoutSegment } from 'next/navigation';
 
 const Navigation = () => {
@@ -14,33 +12,28 @@ const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
   return (
-    <header className="lg:mb-10">
-      {/* <OtherSub /> */}
-      <div className="hidden  items-center justify-between gap-2 py-2 pr-10 lg:flex lg:bg-gray-10">
-        <OtherSub />
-        <div className="flex items-center justify-end rounded-lg bg-purple-2 p-3 text-gray-10">
-          <Link href="mailto:info@tanfreight.com">info@tanfreight.com</Link>
-          {/* <Link className="p-2 uppercase" href="mailto:info@tanfreight.com">
-            Request a quote
-          </Link> */}
-        </div>
+    <header className="m-2">
+      <div className="-pb-4 nav-head  hidden items-center justify-end gap-2 py-2 pr-10 lg:flex">
+        <Link href="mailto:info@tanfreight.com">info@tanfreight.com</Link>
+        <Link className="p-2 uppercase" href="mailto:info@tanfreight.com">
+          Request a quote
+        </Link>
       </div>
-      <OtherSub1 />
-      <nav className="flexBetween max-container relative z-30 bg-purple-2 p-3  lg:px-2 3xl:px-0">
+      <nav className=" flexBetween max-container relative z-30 px-6 pb-5 lg:px-2 3xl:px-0">
         <Link href="/">
           <Image
             src="/tanlogo.png"
             alt="TanFreight Logo"
-            width={84}
-            height={42}
+            width={74}
+            height={32}
           />
         </Link>
-        <ul className="hidden h-full  gap-10 text-gray-10 lg:flex">
+        <ul className="hidden h-full gap-10 lg:flex">
           {NAV_LINKS.map((link) => (
             <Link
               href={link.href}
               key={link.key}
-              className="regular-16 flexCenter cursor-pointer pb-1.5  transition-all hover:font-bold"
+              className="regular-16 flexCenter cursor-pointer pb-1.5 text-gray-50 transition-all hover:font-bold"
             >
               {link.label}
             </Link>

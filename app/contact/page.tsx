@@ -36,9 +36,9 @@ const Page = () => {
         </div>
         <div
           className="flex flex-1 flex-wrap justify-between gap-8 rounded-xl
-           bg-gray-10 p-5 shadow-md lg:gap-1"
+           bg-gray-10 p-2 shadow-md lg:gap-1 lg:p-5"
         >
-          <div className="rounded-xl bg-white p-4  shadow-md">
+          <div className="rounded-xl bg-white p-3 shadow-md  lg:p-4">
             <h2 className="pb-4 text-xl">Our Head Office</h2>
             <p className="text-gray-500">
               TAN Freight and Logistics LTD, 62, 22318 Building Boundary Rd,

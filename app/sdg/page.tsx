@@ -8,23 +8,23 @@ export const metadata: Metadata = {
 };
 const page = () => {
   return (
-    <section className="mx-2 lg:mx-4">
+    <section className="mx-2 mt-8 lg:mx-4">
       <div className="relative mx-2 mb-8">
         <Image
           src="/tanlogo.png"
           alt="tan logo"
           width={50}
           height={50}
-          className="absolute left-[-5px] top-[-28px] w-10 lg:w-[50px]"
+          className="absolute left-[-5px] top-[-20px] w-10 lg:w-[50px]"
         />
         <h2 className="text-xl font-bold lg:text-3xl">
-          TAN SUSTAINABLE DEVELOPMENT GOALS
+          TAN AND THE UNITED NATIONS SDGs
         </h2>
-        <p className="regular-14 lg:regular-16 text-gray-30 lg:w-3/5">
-          TAN contribution to Sustainable Development Goals aim to address some
-          of the global challenges by promoting sustainable development,
-          reducing inequalities, and improving the well-being of all
-          individuals.
+        <p className="mt-3 text-gray-800 lg:w-3/5">
+          TAN contribution to the United Nations Sustainable Development Goals
+          aim to address some of the global challenges by promoting Industry,
+          Innovation and Infrastructure,Climate Action, and Partnerships for the
+          Goals to improve the well-being of all individuals.
         </p>
       </div>
       <SDG />

@@ -60,7 +60,10 @@ const Navigation = () => {
       </nav>
       {/* <!-- Mobile menu, show/hide based on menu state. --> */}
       {isOpen && (
-        <div className="sm:hidden" id="mobile-menu">
+        <div
+          className="z-50 h-screen w-full transition-all ease-in sm:hidden"
+          id="mobile-menu"
+        >
           <div className="space-y-1 px-2 pb-3 pt-2">
             {NAV_LINKS.map((link) => (
               <Link

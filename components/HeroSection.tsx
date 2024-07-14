@@ -1,5 +1,7 @@
+'use client';
 import Image from 'next/image';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 
 const HeroSection = () => {
   return (
@@ -10,10 +12,15 @@ const HeroSection = () => {
         className="ralative z-50 mt-8  flex w-full flex-1 flex-col bg-gradient-to-r from-white via-white to-white p-2 sm:bg-slate-500
         md:bg-purple-2 lg:mt-3 xl:mt-8"
       >
-        <h1 className="animate-1 bold-32 xl:bold-40 lg:bold-32 text-purple-2">
+        <motion.h1
+          className=" bold-32 xl:bold-40 lg:bold-32 text-purple-2"
+          initial={{ x: '-80vw', opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ delay: 0.5, duration: 0.5 }}
+        >
           Your preferred and Authentic Partner in Freight and Logistics
-        </h1>
-        <p className="animate-2 regular-16 mt-6 text-gray-30">
+        </motion.h1>
+        <p className=" regular-16 mt-6 text-gray-30">
           Your reliable and genuine partner for all your freight and logistics
           needs, ensuring smooth and efficient transportation solutions tailored
           to your requirements. Trust us for dependable and authentic services

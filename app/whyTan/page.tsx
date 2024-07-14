@@ -1,6 +1,7 @@
 import BackColor from '@/components/BackColor';
 import FeatureItem from '@/components/FeatureItem';
 import Header from '@/components/Header';
+import Wrapper from '@/components/Wrapper';
 import { WHYTAN } from '@/constants';
 import { Metadata } from 'next';
 import Image from 'next/image';
@@ -11,52 +12,54 @@ export const metadata: Metadata = {
 };
 const WhyTan = () => {
   return (
-    <div className="mt-8 p-5">
-      <BackColor />
+    <Wrapper>
+      <div className="mt-8 p-5">
+        <BackColor />
 
-      <div className="relative p-5">
-        <Image
-          src="/tanlogo.png"
-          alt="tan logo"
-          width={50}
-          height={50}
-          className="absolute left-[-1px] top-[-3px] w-10 lg:w-[50px]"
-        />
-        <h2 className="bold-40 ">Why Choose TAN</h2>
-      </div>
-      {/* <ul className="px-10">
+        <div className="relative p-5">
+          <Image
+            src="/tanlogo.png"
+            alt="tan logo"
+            width={50}
+            height={50}
+            className="absolute left-[-1px] top-[-3px] w-10 lg:w-[50px]"
+          />
+          <h2 className="bold-40 ">Why Choose TAN</h2>
+        </div>
+        {/* <ul className="px-10">
         {MANTRA.map((mantra) => (
           <li
-            className="mb-5 flex flex-col gap-5 p-5  md:grid
-            md:grid-cols-2"
-            key={mantra.title}
+          className="mb-5 flex flex-col gap-5 p-5  md:grid
+          md:grid-cols-2"
+          key={mantra.title}
           >
-            <span>
-              <h3 className="bold-18 mb-1">{mantra.title}</h3>
-              <p className="mb-5">{mantra.description}</p>
-            </span>
-            <Image
-              className=" grid content-center justify-center xl:w-2/3"
-              src={mantra.src}
-              width={500}
-              height={500}
-              alt="tan"
-            />
-          </li>
-        ))}
-      </ul> */}
-      <ul className="mt-10 grid gap-10 md:grid-cols-3 lg:mt-20 lg:gap-10">
-        {WHYTAN.map((whytan) => (
-          <FeatureItem
-            key={whytan.title}
-            title={whytan.title}
-            icon={whytan.src}
-            description={whytan.description}
+          <span>
+          <h3 className="bold-18 mb-1">{mantra.title}</h3>
+          <p className="mb-5">{mantra.description}</p>
+          </span>
+          <Image
+          className=" grid content-center justify-center xl:w-2/3"
+          src={mantra.src}
+          width={500}
+          height={500}
+          alt="tan"
           />
-        ))}
-      </ul>
-      {/* <Header /> */}
-    </div>
+          </li>
+          ))}
+          </ul> */}
+        <ul className="mt-10 grid gap-10 md:grid-cols-3 lg:mt-20 lg:gap-10">
+          {WHYTAN.map((whytan) => (
+            <FeatureItem
+              key={whytan.title}
+              title={whytan.title}
+              icon={whytan.src}
+              description={whytan.description}
+            />
+          ))}
+        </ul>
+        {/* <Header /> */}
+      </div>
+    </Wrapper>
   );
 };
 

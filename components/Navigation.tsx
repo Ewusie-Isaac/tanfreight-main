@@ -6,6 +6,7 @@ import React, { useState } from 'react';
 import Action from './Action';
 import OtherSub1 from './OtherSub1';
 import OtherSub from './OtherSub';
+import { usePathname } from 'next/navigation';
 // import { useSelectedLayoutSegment } from 'next/navigation';
 
 const Navigation = () => {
@@ -13,6 +14,7 @@ const Navigation = () => {
   // let active = segment;
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
+  const path = usePathname();
   return (
     <header className="lg:mb-10">
       {/* <OtherSub /> */}
@@ -42,7 +44,12 @@ const Navigation = () => {
               key={link.key}
               className="regular-16 flexCenter cursor-pointer pb-1.5  transition-all hover:font-bold"
             >
-              {link.label}
+              <span
+                className={`${link.href === path ? 'rounded-md border-2 border-gray-100  px-5 py-1' : ''}`}
+              >
+                {' '}
+                {link.label}
+              </span>
             </Link>
           ))}
         </ul>

@@ -79,7 +79,12 @@ const Navigation = () => {
                 key={link.key}
                 className="regular-16 flexCenter cursor-pointer pb-1.5 text-gray-50 transition-all hover:font-bold"
               >
-                {link.label}
+                <span
+                  className={`${link.href === path ? 'rounded-md border-2 border-purple-1  px-5 py-1' : ''}`}
+                >
+                  {' '}
+                  {link.label}
+                </span>
               </Link>
             ))}
           </div>

@@ -1,3 +1,5 @@
+import { GoogleTagManager, GoogleAnalytics } from '@next/third-parties/google';
+
 import type { Metadata } from 'next';
 import { Inter, Kanit } from 'next/font/google';
 import './globals.css';
@@ -25,6 +27,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={kanit.className}>
+        <GoogleTagManager gtmId="G-7JEZX3QXBN" />
+        <GoogleAnalytics gaId="G-7JEZX3QXBN" />
+
         <Navigation />
         <main className="relative overflow-hidden">{children}</main>
         <Analytics />

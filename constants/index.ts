@@ -215,6 +215,7 @@ export const footerLinks = [
       { name: 'Land Freight', link: '/tanservices#landfreight' },
       { name: 'Customs Clearance', link: '/tanservices#custom' },
       { name: 'Warehouse and Distributions', link: '/tanservices#warehouse' },
+      { name: 'Cold Chain Logistics', link: '/tanservices#coldchain' },
       // { name: 'Haulage', link: '/tanservices' },
       // { name: 'Freight Forwarding', link: '/tanservices#landfreight' },
       { name: 'Project Cargo Handling', link: '/tanservices#projectcargo' },

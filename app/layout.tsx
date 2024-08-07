@@ -29,7 +29,6 @@ export default function RootLayout({
       <body className={kanit.className}>
         <GoogleTagManager gtmId="G-7JEZX3QXBN" />
         <GoogleAnalytics gaId="G-7JEZX3QXBN" />
-
         <Navigation />
         <main className="relative overflow-hidden">{children}</main>
         <Analytics />

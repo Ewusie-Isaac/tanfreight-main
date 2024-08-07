@@ -481,6 +481,74 @@ const TanServices = () => {
               alt="Tan freight packing of goods"
             />
           </div>
+          <div
+            id="coldchain"
+            className="m-5 mx-auto  md:grid md:grid-cols-2 md:gap-5 lg:grid lg:grid-cols-2 lg:gap-5"
+          >
+            <Image
+              width={600}
+              height={600}
+              className="mb-5  object-center"
+              src="/main/cold-chain.jpg"
+              alt="Tan freight packing of goods"
+            />
+            <div className="flex flex-col justify-evenly">
+              <div>
+                <h2 className="pb-3 text-3xl font-bold">
+                  COLD CHAIN LOGISTICS.
+                </h2>
+                <p>
+                  Welcome to our cold chain logistics services, where we
+                  specialize in the safe transportation of temperature-sensitive
+                  goods and products along the supply chain. Our cutting-edge
+                  approach heavily relies on UN package standard regulations and
+                  scientific principles to assess and account for the critical
+                  relationship between temperature and perishability.
+                </p>
+              </div>
+              <div className=" my-3">
+                <h2 className="mb-2 w-full bg-purple-2 p-2 capitalize text-white">
+                  Available Servies
+                </h2>
+                <ul className=" t grid grid-cols-2 gap-3 ">
+                  <li>
+                    <span className="text-purple-2">&#11042;</span> Cold Chain
+                    Solutions
+                  </li>
+                  <li>
+                    <span className="text-purple-2">&#11042;</span> Global Cold
+                    Storage Network
+                  </li>
+                  <li>
+                    <span className="text-purple-2">&#11042;</span> Cold Chain
+                    Managements
+                  </li>
+                  <li>
+                    <span className="text-purple-2">&#11042;</span> Industry
+                    Knowledge
+                  </li>
+                </ul>
+              </div>
+              <Link
+                className="block bg-purple-2 p-5 uppercase text-white"
+                href="mailto:info@tanfreight.com"
+              >
+                Request a Quote
+              </Link>
+              {/* <div className="grid w-full grid-cols-2 gap-5 p-1 ">
+            <Link className="block bg-purple-500 p-5 uppercase" href="/about">
+              About us
+            </Link>
+
+            <Link
+              className="block bg-purple-500 p-5 uppercase"
+              href="mailto:info@tanfreight.com"
+            
+              Request a Quote
+            </Link>
+          </div> */}
+            </div>
+          </div>
         </div>
       </div>
     </section>

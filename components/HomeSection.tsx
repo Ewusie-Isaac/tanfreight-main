@@ -13,7 +13,7 @@ const HomeSection = () => {
           className="max-xl:padding-x relative flex w-full flex-col items-start 
       justify-center "
         >
-          <p className="text-xl text-purple-2">Our Global Possitioning.</p>
+          <h3 className="text-xl text-purple-2">Our Global Possitioning.</h3>
           <h1 className="max-sm:leading-2 max-sm:text-md mt-8 text-2xl font-bold">
             <span className="z-40pr-10 relative  xl:whitespace-nowrap">
               <span

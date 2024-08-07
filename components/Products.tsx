@@ -90,6 +90,21 @@ const Products = () => {
           </h2>
         </Link>
         <Link
+          href="/tanservices#coldchain"
+          className="flex flex-col items-center justify-center bg-gray-100 shadow-lg"
+        >
+          <Image
+            className="h-full w-full"
+            alt="Tan work done"
+            src="/main/cold-chain-1.jpg"
+            height={300}
+            width={300}
+          />
+          <h2 className="mt-5 p-4 pb-3 text-xl font-bold capitalize text-gray-600">
+            Cold Chain Logistics
+          </h2>
+        </Link>
+        <Link
           href="/tanservices#projectcargo"
           className="flex flex-col items-center justify-center bg-gray-100 shadow-lg"
         >
@@ -104,21 +119,7 @@ const Products = () => {
             Project cargo
           </h2>
         </Link>
-        {/* <Link
-          href="/tanservices"
-          className="flex flex-col items-center justify-center bg-gray-100 shadow-lg"
-        >
-          <Image
-            className="h-full w-full"
-            alt="Tan work done"
-            src="/main/landf-2.jpg"
-            height={300}
-            width={300}
-          />
-          <h2 className="mt-5 p-4 pb-3 text-xl font-bold capitalize text-gray-600">
-            Haulage
-          </h2>
-        </Link> */}
+
         <Link
           href="/tanservices#warehouse"
           className="flex flex-col items-center justify-center bg-gray-100 shadow-lg"

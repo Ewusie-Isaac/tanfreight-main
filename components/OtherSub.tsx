@@ -14,7 +14,7 @@ const OtherSub = () => {
           <h2 className="text-gray-90 ">Ecofarms Africa LTD</h2>
         </Link>
         <Link
-          href="#"
+          href="https://valkem.vercel.app/"
           className="flex flex-col items-center justify-center gap-3   rounded-sm bg-slate-100 p-2 lg:flex-row"
         >
           <Image src="/valkem.png" width={80} height={80} alt="" />

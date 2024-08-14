@@ -197,7 +197,7 @@ const Special = () => {
           <Image
             className="md:w-full"
             src="/main/warehouse-2.jpg"
-            alt="tan image"
+            alt="Tan freight and logistics tan warehouse services"
             width={600}
             height={900}
           />

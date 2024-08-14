@@ -35,7 +35,7 @@ const Products = () => {
         >
           <Image
             className="h-full w-full"
-            alt="Tan work done"
+            alt="Tan freight and logistics tan land freight services"
             src="/main/landf-2.jpg"
             height={300}
             width={300}
@@ -50,7 +50,7 @@ const Products = () => {
         >
           <Image
             className="h-full w-full bg-center"
-            alt="Tan work done"
+            alt="Tan freight and logistics tan sea freight services"
             src="/main/ship-1.jpg"
             height={300}
             width={300}
@@ -65,7 +65,7 @@ const Products = () => {
         >
           <Image
             className="h-full w-full"
-            alt="Tan work done"
+            alt="Tan freight and logistics tan air freight services"
             src="/main/airfreight.jpg"
             height={300}
             width={300}
@@ -80,7 +80,7 @@ const Products = () => {
         >
           <Image
             className="h-full w-full"
-            alt="Tan work done"
+            alt="Tan freight and logistics tan custom clearance services"
             src="/main/contain.jpg"
             height={300}
             width={300}
@@ -95,7 +95,7 @@ const Products = () => {
         >
           <Image
             className="h-full w-full"
-            alt="Tan work done"
+            alt="Tan freight and logistics tan cold chain services"
             src="/main/cold-chain-1.jpg"
             height={300}
             width={300}
@@ -110,7 +110,7 @@ const Products = () => {
         >
           <Image
             className="h-full w-full"
-            alt="Tan work done"
+            alt="Tan freight and logistics tan project cargo services"
             src="/main/pcargo.jpg"
             height={300}
             width={300}
@@ -126,7 +126,7 @@ const Products = () => {
         >
           <Image
             className="h-full w-full"
-            alt="Tan work done"
+            alt="Tan freight and logistics tan warehousing services"
             src="/warehouse.jpg"
             height={300}
             width={300}

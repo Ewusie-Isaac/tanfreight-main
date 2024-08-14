@@ -15,7 +15,7 @@ const TanServices = () => {
               height={600}
               className="mb-5 w-full object-fill"
               src="/main/ship-1.jpg"
-              alt="Tan freight packing of goods"
+              alt="Tan freight and logistics tan seafreight"
             />
             <div className="flex flex-col justify-evenly">
               <div>
@@ -210,7 +210,7 @@ const TanServices = () => {
               height={600}
               className="mb-5 object-center"
               src="/main/landf-1.jpg"
-              alt="Tan freight packing of goods"
+              alt="Tan freight and logistics tan land freight"
             />
           </div>
           <div
@@ -222,7 +222,7 @@ const TanServices = () => {
               height={600}
               className="mb-5  object-center"
               src="/main/airfreight.jpg"
-              alt="Tan freight packing of goods"
+              alt="Tan freight and logistics tan air freight services"
             />
             <div className="flex flex-col justify-evenly">
               <div>
@@ -346,7 +346,7 @@ const TanServices = () => {
               height={600}
               className="mb-5 object-center"
               src="/main/contain.jpg"
-              alt="Tan freight packing of goods"
+              alt="Tan freight and logistics tan custom clearance services"
             />
           </div>
           <div
@@ -358,7 +358,7 @@ const TanServices = () => {
               height={600}
               className="mb-5  object-center"
               src="/warehouse.jpg"
-              alt="Tan freight packing of goods"
+              alt="Tan freight and logistics tan warehouse and distribution services"
             />
             <div className="flex flex-col justify-evenly">
               <div>
@@ -478,7 +478,7 @@ const TanServices = () => {
               height={600}
               className="mb-5  object-center"
               src="/main/pcargo.jpg"
-              alt="Tan freight packing of goods"
+              alt="Tan freight and logistics tan project cargo services"
             />
           </div>
           <div
@@ -490,7 +490,7 @@ const TanServices = () => {
               height={600}
               className="mb-5  object-center"
               src="/main/cold-chain.jpg"
-              alt="Tan freight packing of goods"
+              alt="Tan freight and logistics tan cold-chain services"
             />
             <div className="flex flex-col justify-evenly">
               <div>

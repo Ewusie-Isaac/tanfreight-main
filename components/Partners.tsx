@@ -19,7 +19,7 @@ const Partners = () => {
               src="/wiffa.png"
               height={90}
               width={90}
-              alt="tan partner logo"
+              alt="tan global partner tan freight and logistcs partners"
             />
           </li>
           <li>
@@ -27,7 +27,7 @@ const Partners = () => {
               src="/giff.png"
               height={80}
               width={80}
-              alt="tan partner logo"
+              alt="tan global partner tan freight and logistcs partners"
             />
           </li>
           <li>
@@ -35,7 +35,7 @@ const Partners = () => {
               src="/df.png"
               height={80}
               width={80}
-              alt="tan partner logo"
+              alt="tan global partner tan freight and logistcs partners"
             />
           </li>
           <li>
@@ -43,7 +43,7 @@ const Partners = () => {
               src="/jctrans.jpg"
               height={90}
               width={90}
-              alt="tan partner logo"
+              alt="tan global partner tan freight and logistcs partners"
             />
           </li>
           <li>
@@ -51,7 +51,7 @@ const Partners = () => {
               src="/legend.png"
               height={81}
               width={80}
-              alt="tan partner logo"
+              alt="tan global partner tan freight and logistcs partners"
             />
           </li>
           <li>
@@ -59,7 +59,7 @@ const Partners = () => {
               src="/global.png"
               height={80}
               width={80}
-              alt="tan partner logo"
+              alt="tan global partner tan freight and logistcs partners"
             />
           </li>
         </ul>

@@ -76,7 +76,7 @@ const HeroSection = () => {
           src="/main/mains.jpg"
           width={900}
           height={900}
-          alt="hero-map"
+          alt="tan freight"
           className="mt-8 hidden bg-cover bg-center lg:block"
         />
       </div>

@@ -158,7 +158,7 @@ const ManagementTeam = () => {
               src="/managements/RT-1-2.jpg"
               width={400}
               height={400}
-              alt="tan stuff"
+              alt="tan stuff tan logistics"
             />
             <div className="flex items-start justify-between p-3">
               <div>
@@ -175,7 +175,7 @@ const ManagementTeam = () => {
                 <Link href="https://www.linkedin.com/in/raphael-teffutor-368104136?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACEeiQABocZ9K9ELmQ7qh8Cx370IrJ0Vg5U&lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3BZsrooM54R%2B2Jc6bejOV0Mw%3D%3D">
                   <Image
                     src="/managements/linkedin.png"
-                    alt=""
+                    alt="tan stuff tan logistics"
                     width={40}
                     height={40}
                   />
@@ -191,7 +191,7 @@ const ManagementTeam = () => {
               src="/managements/RN-1-2.jpg"
               width={400}
               height={400}
-              alt="tan stuff"
+              alt="tan stuff tan logistics"
             />
             <div className="flex items-start justify-between p-3">
               <div>
@@ -208,7 +208,7 @@ const ManagementTeam = () => {
                 <Link href="https://www.linkedin.com/in/raphael-nyarkoh-0704522b5?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAEu04tQB7kzKpw3EJ-4esSfYpij1sWXfu0c&lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3BZsrooM54R%2B2Jc6bejOV0Mw%3D%3D">
                   <Image
                     src="/managements/linkedin.png"
-                    alt=""
+                    alt="tan stuff tan logistics"
                     width={40}
                     height={40}
                   />
@@ -225,7 +225,7 @@ const ManagementTeam = () => {
                 src="/managements/IS-2.jpg"
                 width={400}
                 height={400}
-                alt="tan stuff"
+                alt="tan stuff tan logistics"
               />
             </Link>
             <div className="flex items-start justify-between p-3">
@@ -240,7 +240,7 @@ const ManagementTeam = () => {
                 <Link href="https://www.linkedin.com/in/isaac-networks-2a5a9a183?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACtoxh0Bit5tAkmnrUQfyXbFBWpyd5snEMY&lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3BZsrooM54R%2B2Jc6bejOV0Mw%3D%3D">
                   <Image
                     src="/managements/linkedin.png"
-                    alt=""
+                    alt="tan stuff tan logistics"
                     width={40}
                     height={40}
                   />
@@ -254,7 +254,7 @@ const ManagementTeam = () => {
                 src="/managements/HR-2.jpg"
                 width={400}
                 height={400}
-                alt="tan stuff"
+                alt="tan stuff tan logistics"
               />
             </Link>
             <div className="flex items-start justify-between p-3">
@@ -272,7 +272,7 @@ const ManagementTeam = () => {
                 <Link href="" className="email">
                   <Image
                     src="/managements/linkedin.png"
-                    alt=""
+                    alt="tan stuff tan logistics"
                     width={40}
                     height={40}
                   />
@@ -289,7 +289,7 @@ const ManagementTeam = () => {
                 src="/managements/EB-2.JPG"
                 width={400}
                 height={400}
-                alt="Esthere Bampoh tan stuff"
+                alt="tan stuff tan logistics"
               />
             </Link>
             <div className="flex items-start justify-between p-3">
@@ -307,7 +307,7 @@ const ManagementTeam = () => {
                 <Link href="https://www.linkedin.com/in/esther-nanaama-bampoh-53a2331a1?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC8ysj4BR37_DvcCFnwICXifPV7Gci4Q-MM&lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3BZsrooM54R%2B2Jc6bejOV0Mw%3D%3D">
                   <Image
                     src="/managements/linkedin.png"
-                    alt=""
+                    alt="tan stuff tan logistics"
                     width={38}
                     height={38}
                   />

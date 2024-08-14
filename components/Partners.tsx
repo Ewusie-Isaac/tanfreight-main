@@ -1,6 +1,10 @@
+import { Metadata } from 'next';
 import Image from 'next/image';
 import React from 'react';
-
+export const metadata: Metadata = {
+  title: '',
+  description: 'TAN Freight and Logistics TAN Global Partners',
+};
 const Partners = () => {
   return (
     <section className="mt-10 scroll-smooth">
@@ -8,7 +12,7 @@ const Partners = () => {
         Our Global Partners
       </div>
 
-      <div className="mx-1  bg-purple-2/20">
+      <div className="mx-1 bg-purple-2/20">
         <ul className="grid grid-flow-col-dense items-center justify-between gap-5 p-5">
           <li>
             <Image

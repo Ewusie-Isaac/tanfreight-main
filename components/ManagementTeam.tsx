@@ -1,6 +1,11 @@
+import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-
+export const metadata: Metadata = {
+  title: '',
+  description:
+    'TAN Freight and Logistics. TAN Stuffs TAN Management team and workers',
+};
 const ManagementTeam = () => {
   return (
     <section className="bg-gray-100">
